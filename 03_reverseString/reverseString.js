@@ -7,3 +7,12 @@ const reverseString = function (string) {
 
 // Do not edit below this line
 module.exports = reverseString;
+
+// Proposed solution
+/*
+const reverseString = function(string) {
+ return string.split('').reverse().join('');
+};
+
+module.exports = reverseString;
+*/
